@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+env/
+venv.bak/
+
+# Pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# IPython/Jupyter
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Editor temp files
+*~
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# dotenv environment files
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# Coverage
+htmlcov/
+.coverage
+
+# Wheels / eggs
+*.egg
+*.whl
+
+
