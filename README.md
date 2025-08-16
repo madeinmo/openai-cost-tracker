@@ -24,7 +24,7 @@ pip install -e .
 ### Using pip
 
 ```bash
-pip install openai-cost-tracker
+pip install git+https://github.com/madeinmo/openai-cost-tracker.git
 ```
 
 ## Quick Start
@@ -211,3 +211,10 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## Support
 
 For issues and questions, please open an issue on the GitHub repository.
+
+## Support the Project
+
+If you enjoy using this project and would like to help it grow, consider showing your support!  
+A star on GitHub, sharing with others, or any kind words are always appreciated.
+
+USDT TRC20 - TJ5GUbqJ51UDSKb2ZNQM3jHLL7DcjENWRs
