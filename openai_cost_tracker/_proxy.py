@@ -89,7 +89,6 @@ class _AsyncClientProxy:
         if callable(attr):
             async def wrapper(*args, **kwargs):
                 res = await attr(*args, **kwargs)
-                print(f'res {res}')
                 self._handle_result(res, kwargs)
                 return getattr(self, "_last_result", res)
             return wrapper
