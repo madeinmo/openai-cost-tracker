@@ -43,11 +43,11 @@ def _extract_usage_and_model(resp: ChatCompletion | Response) -> Tuple[Optional[
 
 def _calc_cost(model: Optional[str], in_tok: int, out_tok: int, cached_tok: int) -> Decimal:
     if not model:
-        return 0.0
+        return Decimal("0.0")
     price = PRICES_USD_PER_MLN_TOKEN.get(model)
     if not price:
         # Неизвестная модель — считаем как 0, но можно логировать/кидать warning.
-        return 0.0
+        return Decimal("0.0")
     
     # Convert to USD per token
     price = {k: (v / 1_000_000) for k, v in price.items()}
