@@ -27,4 +27,11 @@ PRICES_USD_PER_MLN_TOKEN: Dict[str, Dict[str, float]] = {
     # Embeddings
     "text-embedding-3-large": {"input": 0.13, "output": 0.0},
     "text-embedding-3-small": {"input": 0.02, "output": 0.0},
+    
+    # Perplexity
+    "sonar": {"input": 1.0, "output": 1.0},
+    "sonar-pro": {"input": 3.0, "output": 15.0},
+    "sonar-reasoning": {"input": 1.0, "output": 5.0},
+    "sonar-reasoning-pro": {"input": 2.0, "output": 8.0},
+    "sonar-deep-research": {"input": 2.0, "output": 8.0},
 }
